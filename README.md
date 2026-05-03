@@ -1,10 +1,29 @@
-# Module1Hackathon
-Module1Hackathon NumPy / Pandas / EDA Hackathon — Singapore Talent Market Intelligence
+# Module 1 Hackathon Submission  
+## NumPy / Pandas / EDA — Singapore Talent Market Intelligence
 
-Persona B — The Salary Benchmarking Analyst
-"My company sells salary benchmarking reports to HR teams. Build me a defensible view of pay by role, level, and experience that I can actually publish."
+---
 
--	Robust outlier handling is critical — defend your cleaning rules in the notebook (a Markdown cell is fine).
--	Produce a pivot table: positionLevels × primary_category showing median salary. Which cell is the highest-paid intersection?
--	Use NumPy to compute the inter-quartile range (IQR) for each position level and flag levels where the IQR is unusually wide. What does a wide IQR signal?
--	Plot a line or bar chart showing how median salary changes with minimumYearsExperience (0–10 years only).
+## Overview
+
+This project builds a **salary benchmarking framework** using job posting data. The goal is to produce a **defensible, data-driven view of market compensation** that HR teams can use to assess whether salaries are competitive, over-market, or under-market.
+
+The analysis focuses on:
+- Robust data cleaning and outlier handling  
+- Salary aggregation by role, level, and category  
+- Statistical dispersion using IQR  
+- Experience-based salary trends  
+
+---
+
+## Business Problem
+
+HR teams often struggle with inconsistent or outdated salary benchmarks.
+
+This project aims to answer:
+1. Are we paying competitively?
+2. Are we overpaying or underpaying?
+3. What should we offer for a given role and experience level?
+
+The output is intended to support **credible, publishable salary benchmarking insights** derived from observed job posting data.
+
+---
