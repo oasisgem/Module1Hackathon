@@ -4,3 +4,4 @@
 
 #ignore SGJobData.csv
 data/SGJobData.csv
+.venv/
