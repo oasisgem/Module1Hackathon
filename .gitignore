@@ -1,0 +1,6 @@
+# Windows Zone.Identifier files
+*:Zone.Identifier*
+*.Zone.Identifier*
+
+#ignore SGJobData.csv
+data/SGJobData.csv
