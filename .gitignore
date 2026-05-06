@@ -1,6 +1,6 @@
-# Windows Zone.Identifier files
-*:Zone.Identifier*
-*.Zone.Identifier*
-
-#ignore SGJobData.csv
-data/SGJobData.csv
+SGJobData.csv
+*.parquet
+*.csv
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
