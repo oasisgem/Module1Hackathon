@@ -1,0 +1,20 @@
+name: streamlit_app_hackathon
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - pip
+  - notebook=7.0.6  # Updated to newer version
+  - openpyxl=3.0.10
+  - seaborn=0.12.2
+  - sqlalchemy=1.4.39
+  - xlrd=2.0.1
+  - jupyter_server>=2.0.0  # Added explicitly
+  - jupyter_core>=5.0.0    # Added explicitly
+  - pip:
+      - streamlit
+      - plotly
